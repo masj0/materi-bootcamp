@@ -1,0 +1,31 @@
+.judul{
+    /* Memberi warna text */
+    color: green;
+    /* Atur ukuran text */
+    font-size: 100px;
+    /* Ketebalan text */
+    font-weight: bold;
+    /* Dekorasi text */
+    text-decoration: none;
+    /* Background text */
+    background-color: blue;
+    /* Text aligning */
+    text-align: center;   
+    /* Text transform */
+    text-transform: capitalize;
+}
+
+.kotak{
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    margin-top: 100px;
+    margin-left: 500px;
+    transition: all 1s;
+    
+}
+
+.kotak:hover{
+    transform: rotate(45deg);
+    background-color: chartreuse;
+}
